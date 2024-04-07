@@ -1,0 +1,25 @@
+@import '../../../styles.scss';
+
+.conteudocentral{
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    color: rgb(55, 55, 67);
+    font-family: $fonte-principal;
+    word-spacing: 3px;
+    line-height: 1.5;
+    height: auto;
+    width: 40%;
+    margin: 0 0 40px 500px;
+    p{
+        text-align: justify;
+        font-size: 16px;
+        line-height: 130%;
+        display: flex;
+        text-align: justify;
+        padding-top: -27px;
+    }
+}

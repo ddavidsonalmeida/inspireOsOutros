@@ -1,0 +1,80 @@
+@import '../../../styles.scss';
+
+.container{
+    padding: 20px;
+    .conteudocentral{
+        display: flex;
+        background-color: #fff;
+        border-radius: 5px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+        justify-content: center;
+        color: rgb(55, 55, 67);
+        font-family: $fonte-principal;
+        height: 100vh;
+        width: 40%;
+        margin: 0 0 40px 500px;
+        h1{
+            line-height: -0.9px
+        }
+        p{
+            text-align: justify;
+            font-size: 16px;
+            line-height: 130%;
+            display: flex;
+            text-align: justify;
+            word-spacing: 3px;
+            line-height: 1.5;
+        }
+        img{
+            width: 650px;
+            display: flex;
+            justify-content: center;
+            padding-left: 50px;
+        }
+    }
+    .titulocentral{
+        margin: 0 450px 40px 400px;
+        h2{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 55PX;
+            font-family: 'font-principal-h1', sans-serif;
+            color: white;
+            :hover{
+                color: #f58b0a;
+                transition: 2s;
+                text-shadow: #000 2px 2px 2px;
+            }
+        }
+    }
+    .cards{
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+        margin-left: -270px;
+        padding-bottom: 20px;
+    .example-card {
+        max-width: 400px;
+        background-color: rgb(255, 255, 255);
+        padding: 10px;
+        border-radius: 5px;
+        border: 1PX salmon;
+        margin-left: 250px;
+        :hover{
+            background-color: rgb(50, 124, 245);
+            border-radius: 5px;
+            border: 1PX salmon;
+            padding: 10px;
+            transition: 0.5s;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        };
+      }
+      
+      .example-header-image {
+        background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+        background-size: cover;
+      }
+    }  
+}
