@@ -13,7 +13,7 @@ import { RodapeComponent } from './componentes/rodape/rodape.component';
 })
 export class AppComponent {
   title = 'InspireOsOutros';
-  public nome = 'Davidson';
-  // RETORNA O DIA E HORA LOCAL
-  public data = new Date();
+  // public nome = 'Davidson';
+  // // RETORNA O DIA E HORA LOCAL
+  // public data = new Date();
 }
