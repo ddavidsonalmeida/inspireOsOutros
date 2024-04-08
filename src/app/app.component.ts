@@ -14,7 +14,6 @@ import { RodapeComponent } from './componentes/rodape/rodape.component';
 export class AppComponent {
   title = 'InspireOsOutros';
   public nome = 'Davidson';
-  public empresa = 'Empresa Inspire os Outros';
   // RETORNA O DIA E HORA LOCAL
   public data = new Date();
 }

@@ -60,21 +60,18 @@
         background-color: rgb(255, 255, 255);
         padding: 10px;
         border-radius: 5px;
-        border: 1PX salmon;
         margin-left: 250px;
-        :hover{
-            background-color: rgb(50, 124, 245);
-            border-radius: 5px;
-            border: 1PX salmon;
-            padding: 10px;
-            transition: 0.5s;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-        };
       }
-      
+    
       .example-header-image {
-        background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+        background-image: url('https://img.freepik.com/psd-gratuitas/ilustracao-3d-de-avatar-ou-perfil-humano_23-2150671142.jpg?size=338&ext=jpg&ga=GA1.1.1700460183.1712448000&semt=sph');
         background-size: cover;
+      }
+      .bt-curtir{
+        width: 20px;
+      }
+      .bt-compartilhar{
+        width: 20px;
       }
     }  
 }
