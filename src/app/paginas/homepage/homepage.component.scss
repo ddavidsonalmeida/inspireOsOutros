@@ -1,19 +1,19 @@
 @import '../../../styles.scss';
 
 .container{
-    padding: 20px;
+    padding: 2%;
     .conteudocentral{
         display: flex;
         background-color: #fff;
         border-radius: 5px;
         box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-        padding: 20px;
+        padding: 2%;
         justify-content: center;
         color: rgb(55, 55, 67);
         font-family: $fonte-principal;
-        height: 100vh;
+        height: 60%;
         width: 40%;
-        margin: 0 0 40px 500px;
+        margin: 0 0 3% 30%;
         h1{
             line-height: -0.9px
         }
@@ -27,14 +27,14 @@
             line-height: 1.5;
         }
         img{
-            width: 650px;
+            width: 90%;
             display: flex;
             justify-content: center;
-            padding-left: 50px;
+            padding: 0 1% 0 3%
         }
     }
     .titulocentral{
-        margin: 0 450px 40px 400px;
+        margin: 0 25% 3% 30%;
         h2{
             display: flex;
             justify-content: center;
@@ -70,6 +70,7 @@
       .cont-Curtir{
         margin-right: 20px;
       }
+      
       .bt-curtir{
         width: 20px;
         margin-right: 8px;

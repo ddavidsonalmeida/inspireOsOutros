@@ -20,17 +20,17 @@
         font-family: 'font-Principal-h1', sans-serif;
         text-shadow: #000 0.5px 0.5px 0.5px;    
         font-size: 20px;
-        margin: 10px 0;
-        padding-top: 20px;
+        margin: 2% 0;;
         img{
             width: 120px;}
-            padding-bottom: 20px;
+            margin: 3% 1%;
     }
     .menu{
         display: flex;
         font-size: 20px;
         color: #000;
         align-items: center;
+        margin: 0.3% 0 1% 0;
         :hover{
             color: #ffffff;
         }
